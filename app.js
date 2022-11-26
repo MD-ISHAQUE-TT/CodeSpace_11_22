@@ -6,4 +6,3 @@ app.get("/home", (req, res) => {
 })
 
 module.exports =app;
-
