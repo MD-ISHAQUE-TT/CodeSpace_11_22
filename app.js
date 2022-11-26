@@ -2,7 +2,7 @@ const express = require("express");
 require('dotenv').config()
 const app = express();
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
     res.send("<h1>You are visiting home page</h1>")
 })
 
